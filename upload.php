@@ -18,6 +18,7 @@
 
 <?php
 if(isset($_POST["submit"])){
+    $target_dir = "uploads/";
     $file = $target_dir.$_FILES["file"]["name"];
 
     echo "name".$_FILES["file"]["tmp_name"];

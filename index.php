@@ -6,11 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="upload.php" action="POST" enctype="multipart/form-data">
-        <input type="file" name="image">
-        <button type="submit" name="submit">Submit</button>
-    </form>
 
-    
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit" name="submit">submit</button>
+    </form>
 </body>
 </html>
